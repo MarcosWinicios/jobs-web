@@ -4,25 +4,32 @@ import "./styles.css";
 const Header = () => {
     return (
         <header>
-            <figure>
-                <img src={Logo} alt="Programathor" />
-            </figure>
-            <nav>
-                <a href="">
-                    <strong>VER VAGAS</strong>
-                </a>
-                <a href="">
-                    <strong>SOU EMPRESA</strong>
-                </a>
-                <a href="">
-                    <strong>LOGIN</strong>
-                </a>
-                <a href="">
+            <div className="content-header">
+                <figure>
+                    <img
+                        src={Logo}
+                        alt="Programathor"
+                        width="370"
+                        loading="lazy"
+                    />
+                </figure>
+                <nav>
+                    <a href="">
+                        <strong>VER VAGAS</strong>
+                    </a>
+                    <a href="#">
+                        <strong>SOU EMPRESA</strong>
+                    </a>
+                    <a href="#">
+                        <strong>LOGIN</strong>
+                    </a>
                     <span>
-                        <strong>CADASTRE-SE</strong>
+                        <a href="#">
+                            <strong>CADASTRAR-SE</strong>
+                        </a>
                     </span>
-                </a>
-            </nav>
+                </nav>
+            </div>
         </header>
     );
 }

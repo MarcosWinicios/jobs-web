@@ -5,10 +5,12 @@
     --background-item-collor: #F4F4F4;
     --highlight-text-collor: #D0D9E0;
     --navigation-text-collor: #C0C0C1;
-    --main-text-collor: #4B6385;
+    --main-text-collor: #34495E;
     --main-text-hover-collor: #323B44;
     --atributes-textItems-collor: #808080;
-    --filtersTopcs-text-collor: #3E454B;
+    --link-text-collor-hover: #000;
+    --primary-collor-button-hover: #22303D;
+    --live-green-color: #32B796
 }
 
 * {
@@ -22,8 +24,9 @@ a {
 }
 
 html,
-body {
-    background-color: --var(--background-main-collor);
+body,
+#root {
+    background-color: var(--background-main-collor);
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
 }
