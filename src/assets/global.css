@@ -3,7 +3,7 @@
     --background-main-collor: #FFFFFF;
     --backgroud-main-hover-collor: #EEEEEE;
     --background-item-collor: #F4F4F4;
-    --highlight-text-collor: #D0D9E0;
+    --highlight-text-collor: #FFFFFFFF;
     --navigation-text-collor: #C0C0C1;
     --main-text-collor: #34495E;
     --main-text-hover-collor: #323B44;
@@ -17,6 +17,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+main {
+    margin-top: 67px;
 }
 
 a {
