@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
 :root {
-    --background-main-collor: "#FFFFFF";
-    --backgroud-main-hover-collor: "#EEEEEE";
-    --background-item-collor: "#F4F4F4";
-    --highlight-text-collor: "#D0D9E0";
-    --navigation-text-collor: "#C0C0C1";
-    --main-text-collor: "#4B6385";
-    --main-text-hover-collor: "#323B44";
-    --atributes-textItems-collor: "#808080";
-    --filtersTopcs-text-collor: "#3E454B";
+    --background-main-collor: #FFFFFF;
+    --backgroud-main-hover-collor: #EEEEEE;
+    --background-item-collor: #F4F4F4;
+    --highlight-text-collor: #D0D9E0;
+    --navigation-text-collor: #C0C0C1;
+    --main-text-collor: #4B6385;
+    --main-text-hover-collor: #323B44;
+    --atributes-textItems-collor: #808080;
+    --filtersTopcs-text-collor: #3E454B;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 }
 
 html,

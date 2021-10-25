@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    box-shadow: #ccc 0 1px 0;
+}
+
+header nav {
+    display: flex;
+    /* border: solid 1px rgb(147, 196, 56); */
+    height: inherit;
+    align-items: center;
+}
+
+header figure {
+    margin: 10px;
+    padding: 10px;
+}
+
+header nav a {
+    /* border: solid 1px rgb(105, 33, 33); */
+    color: var(--main-text-collor);
+    width: 150px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a:hover {
+    color: var(--main-text-hover-collor);
+    background-color: var(--backgroud-main-hover-collor);
+}
