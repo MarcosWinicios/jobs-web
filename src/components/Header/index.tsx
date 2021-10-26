@@ -14,17 +14,17 @@ const Header = () => {
                     />
                 </figure>
                 <nav>
-                    <a href="">
+                    <a href="https://programathor.com.br/jobs">
                         <strong>VER VAGAS</strong>
                     </a>
-                    <a href="#">
+                    <a href="https://programathor.com.br/jobs">
                         <strong>SOU EMPRESA</strong>
                     </a>
-                    <a href="#">
+                    <a href="https://programathor.com.br/jobs">
                         <strong>LOGIN</strong>
                     </a>
                     <span>
-                        <a href="#">
+                        <a href="https://programathor.com.br/jobs">
                             <strong>CADASTRAR-SE</strong>
                         </a>
                     </span>
