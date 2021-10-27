@@ -7,12 +7,12 @@ const Job = () => {
     return (
         <div className="job-container">
             <figure>
-                <img src={CompanyImage} alt="Company Image" loading="lazy" width="100" height="100" />
+                <img src={CompanyImage} alt="company" loading="lazy" sizes="100" />
             </figure>
             <div className="container-data-job">
                 <h3>Desenvolvedor(a) de Sofware Pleno</h3>
                 <div className="items-job">
-                    <span className="company">
+                    <span className="company-logo">
                         <FaBriefcase />
                         Deep Seed Solutions
                     </span>
