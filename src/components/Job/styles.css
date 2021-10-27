@@ -40,6 +40,10 @@
     display: flex;
 }
 
+.job-container .items-job span .icon {
+    margin-right: 3px;
+}
+
 .list-tag-skills {
     display: flex;
     align-content: center;

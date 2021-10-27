@@ -1,9 +1,17 @@
-import React from "react";
-import { FaBriefcase, FaMapMarkerAlt, FaBuilding, FaChartBar, FaFileAlt, FaPlane } from "react-icons/fa";
+import React, { useEffect, useState } from "react";
+import { FaMoneyBillAlt, FaBriefcase, FaMapMarkerAlt, FaBuilding, FaChartBar, FaFileAlt, FaPlane } from "react-icons/fa";
 import "../Job/styles.css";
 import CompanyImage from "../../assets/images/company-image.png";
 
+
 const Job = () => {
+    const [salary, setSalary] = useState("");
+    useEffect(() => {
+        var value = 1000;
+        setSalary(value.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' }));
+    }, []);
+
+
     return (
         <div className="job-container">
             <figure>
@@ -13,28 +21,32 @@ const Job = () => {
                 <h3>Desenvolvedor(a) de Sofware Pleno</h3>
                 <div className="items-job">
                     <span className="company">
-                        <FaBriefcase />
+                        <FaBriefcase className="icon" />
                         Deep Seed Solutions
                     </span>
                     <span className="location">
-                        <FaMapMarkerAlt />
+                        <FaMapMarkerAlt className="icon" />
                         Rio de Janeiro, Rio de Janeiro, Brasil
                     </span>
                     <span className="company-size">
-                        <FaBuilding />
+                        <FaBuilding className="icon" />
                         Pequena/média empresa
                     </span>
                     <span className="experience-level">
-                        <FaChartBar />
+                        <FaChartBar className="icon" />
                         Pleno
                     </span>
                     <span className="contract-type">
-                        <FaFileAlt />
+                        <FaFileAlt className="icon" />
                         CLT
                     </span>
                     <span className="accept-outside">
-                        <FaPlane />
+                        <FaPlane className="icon" />
                         Aceita de fora
+                    </span>
+                    <span className="salary">
+                        <FaMoneyBillAlt className="icon" />
+                        {salary}
                     </span>
                 </div>
                 <div className="list-tag-skills">
