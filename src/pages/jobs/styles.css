@@ -16,7 +16,6 @@
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    /* border: solid 1px rgb(241, 15, 154); */
 }
 
 .presentation h1 {
@@ -39,6 +38,8 @@
     border-radius: 1px;
     border: none;
     font-size: 1.3rem;
+    background-color: #ffff;
+    padding: 10px;
 }
 
 .presentation .search-group {
@@ -46,7 +47,6 @@
     display: flex;
     flex-direction: row;
     width: 40%;
-    /* border: solid 1px violet; */
 }
 
 .search-group>div {
@@ -63,12 +63,10 @@
     width: 90vw;
     display: flex;
     justify-content: space-between;
-    /* border: solid 1px violet; */
 }
 
 .filters-container {
     height: 400px;
     width: 25%;
-    background-color: aqua;
-    /* border: solid 1px gold; */
+    border: solid 1px #c0c0c0;
 }

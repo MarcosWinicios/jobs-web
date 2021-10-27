@@ -1,59 +1,55 @@
 .job-container {
-    border: solid 1px rgb(228, 84, 84);
+    border-top: solid 1px #dedede;
     display: flex;
-    /* flex-direction: column; */
     width: 60vw;
-    /* width: fit-content; */
     height: 270px;
     padding: 35px;
-    /* justify-content: space-between; */
 }
 
 .job-container figure {
-    border: solid 1px #ccc;
-    margin-right: 40px;
     display: flex;
     align-items: center;
+    margin: 40px;
 }
 
 .container-data-job {
-    border: solid 1px blue;
+    width: inherit;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .job-container h3 {
     font-size: 1.4rem;
     font-weight: 500;
+    color: #34495e;
 }
 
 .job-container .items-job {
+    color: var(--atributes-textItems-collor);
     display: flex;
-    /* flex-wrap: wrap; */
-    border: solid 1px rgb(144, 158, 18);
-    /* width: 95%; */
-    height: 50%;
+    flex-wrap: wrap;
 }
 
 .job-container .items-job span {
-    border: solid 1px #ccc;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     height: fit-content;
     width: fit-content;
     margin-left: 10px;
-}
-
-.list-tag-skills {
-    border: solid 1px #ccc;
     display: flex;
 }
 
+.list-tag-skills {
+    display: flex;
+    align-content: center;
+    height: fit-content;
+}
+
 .list-tag-skills span {
-    background-color: #ccc;
-    border-radius: 10%;
-    padding: 6px 14px;
-    margin: 0 6px 5px 0;
+    background-color: #f4f4f4;
+    border-radius: 17%;
+    padding: 6px 15px;
+    margin-right: 6px;
+    color: #34495e;
 }
