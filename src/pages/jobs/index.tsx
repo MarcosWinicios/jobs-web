@@ -56,8 +56,24 @@ const Jobs = () => {
                         </div>
                     </div>
                 </section>
-                <section className="jobs-list">
-                    <Job />
+                <section className="jobs-list-container">
+                    <aside className="filters-container">
+
+                    </aside>
+                    <ul className="jobs-list">
+                        <li>
+                            <Job />
+                        </li>
+                        <li>
+                            <Job />
+                        </li>
+                        <li>
+                            <Job />
+                        </li>
+                        <li>
+                            <Job />
+                        </li>
+                    </ul>
                 </section>
             </main>
         </>
