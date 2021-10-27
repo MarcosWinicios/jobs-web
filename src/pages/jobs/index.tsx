@@ -57,7 +57,7 @@ const Jobs = () => {
                     </div>
                 </section>
                 <section className="jobs-list">
-                    <Job></Job>
+                    <Job />
                 </section>
             </main>
         </>
