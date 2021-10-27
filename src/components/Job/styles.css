@@ -1,11 +1,25 @@
 .job-container {
     border: solid 1px rgb(228, 84, 84);
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 60vw;
     /* width: fit-content; */
     height: 270px;
     padding: 35px;
+    /* justify-content: space-between; */
+}
+
+.job-container figure {
+    border: solid 1px #ccc;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.container-data-job {
+    border: solid 1px blue;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -17,9 +31,9 @@
 .job-container .items-job {
     display: flex;
     /* flex-wrap: wrap; */
-    border: solid 1px rgb(35, 158, 18);
+    border: solid 1px rgb(144, 158, 18);
     /* width: 95%; */
-    height: inherit;
+    height: 50%;
 }
 
 .job-container .items-job span {
@@ -27,8 +41,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
     height: fit-content;
+    width: fit-content;
     margin-left: 10px;
 }
 
