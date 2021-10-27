@@ -1,6 +1,7 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa"
-import Header from "../../components/Header";
+import Header from "components/Header";
+import Job from "components/Job";
 import "./styles.css";
 const Jobs = () => {
     return (
@@ -54,6 +55,9 @@ const Jobs = () => {
                             </select>
                         </div>
                     </div>
+                </section>
+                <section className="jobs-list">
+                    <Job></Job>
                 </section>
             </main>
         </>
