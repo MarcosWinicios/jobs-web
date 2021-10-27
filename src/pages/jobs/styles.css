@@ -16,7 +16,7 @@
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    border: solid 1px rgb(241, 15, 154);
+    /* border: solid 1px rgb(241, 15, 154); */
 }
 
 .presentation h1 {
@@ -36,17 +36,17 @@
 
 .presentation div select {
     width: 100%;
-    height: 40px;
     border-radius: 1px;
     border: none;
     font-size: 1.3rem;
 }
 
 .presentation .search-group {
+    height: 45px;
     display: flex;
     flex-direction: row;
-    width: 50%;
-    border: solid 1px violet;
+    width: 40%;
+    /* border: solid 1px violet; */
 }
 
 .search-group>div {
