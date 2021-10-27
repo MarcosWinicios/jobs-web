@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBriefcase, FaMapMarkerAlt, FaBuilding, FaChartBar, FaFileAlt, FaPlane } from "react-icons/fa";
+import "../Job/styles.css";
 
 const Job = () => {
     return (
@@ -8,27 +9,27 @@ const Job = () => {
             <div className="items-job">
                 <span className="company">
                     <FaBriefcase />
-                    <p>Deep Seed Solutions</p>
+                    Deep Seed Solutions
                 </span>
                 <span className="location">
                     <FaMapMarkerAlt />
-                    <p>Rio de Janeiro, Rio de Janeiro, Brasil</p>
+                    Rio de Janeiro, Rio de Janeiro, Brasil
                 </span>
                 <span className="company-size">
                     <FaBuilding />
-                    <p>Pequena/média empresa</p>
+                    Pequena/média empresa
                 </span>
                 <span className="experience-level">
                     <FaChartBar />
-                    <p>Pleno</p>
+                    Pleno
                 </span>
                 <span className="contract-type">
                     <FaFileAlt />
-                    <p>CLT</p>
+                    CLT
                 </span>
                 <span className="accept-outside">
                     <FaPlane />
-                    <p>Aceita de fora</p>
+                    Aceita de fora
                 </span>
             </div>
             <div className="list-tag-skills">

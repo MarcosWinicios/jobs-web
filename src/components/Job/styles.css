@@ -1,0 +1,45 @@
+.job-container {
+    border: solid 1px rgb(228, 84, 84);
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    /* width: fit-content; */
+    height: 270px;
+    padding: 35px;
+    justify-content: space-between;
+}
+
+.job-container h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.job-container .items-job {
+    display: flex;
+    /* flex-wrap: wrap; */
+    border: solid 1px rgb(35, 158, 18);
+    /* width: 95%; */
+    height: inherit;
+}
+
+.job-container .items-job span {
+    border: solid 1px #ccc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10px;
+}
+
+.list-tag-skills {
+    border: solid 1px #ccc;
+    display: flex;
+}
+
+.list-tag-skills span {
+    background-color: #ccc;
+    border-radius: 10%;
+    padding: 6px 14px;
+    margin: 0 6px 5px 0;
+}
