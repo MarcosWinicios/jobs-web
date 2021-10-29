@@ -58,15 +58,29 @@
 }
 
 .jobs-list-container {
-    margin-left: 5vw;
-    padding-top: 50px;
-    width: 90vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    border: solid 3px #6224b4;
 }
 
 .filters-container {
     height: 400px;
     width: 25%;
-    border: solid 1px #c0c0c0;
+    border: solid 1px #da0e0e;
+}
+
+.jobs-list-content {
+    /* margin-left: 5vw; */
+    padding-top: 50px;
+    /* min-width: 90vw; */
+    max-width: 970px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px rgb(130, 238, 179);
+}
+
+@media ( max-width: 1064px) {
+    .jobs-list-content {
+        border: solid 2px rgb(151, 11, 194);
+    }
 }

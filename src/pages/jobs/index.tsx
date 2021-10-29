@@ -57,23 +57,27 @@ const Jobs = () => {
                     </div>
                 </section>
                 <section className="jobs-list-container">
-                    <aside className="filters-container">
+                    <div className="jobs-list-content">
 
-                    </aside>
-                    <ul className="jobs-list">
-                        <li>
-                            <Job />
-                        </li>
-                        <li>
-                            <Job />
-                        </li>
-                        <li>
-                            <Job />
-                        </li>
-                        <li>
-                            <Job />
-                        </li>
-                    </ul>
+
+                        <aside className="filters-container">
+
+                        </aside>
+                        <ul className="jobs-list">
+                            <li>
+                                <Job />
+                            </li>
+                            <li>
+                                <Job />
+                            </li>
+                            <li>
+                                <Job />
+                            </li>
+                            <li>
+                                <Job />
+                            </li>
+                        </ul>
+                    </div>
                 </section>
             </main>
         </>
