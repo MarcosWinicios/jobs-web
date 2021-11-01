@@ -60,7 +60,7 @@
 .jobs-list-container {
     display: flex;
     justify-content: center;
-    border: solid 3px #6224b4;
+    border: solid 3px #0a92d1;
 }
 
 .filters-container {
@@ -72,15 +72,23 @@
 .jobs-list-content {
     /* margin-left: 5vw; */
     padding-top: 50px;
-    /* min-width: 90vw; */
-    max-width: 970px;
+    max-width: 90vw;
     display: flex;
     justify-content: space-between;
-    border: solid 2px rgb(130, 238, 179);
+    border: solid 5px rgb(130, 238, 179);
 }
 
-@media ( max-width: 1064px) {
+@media(min-width: 1025px) and (max-width: 1280px) {
     .jobs-list-content {
-        border: solid 2px rgb(151, 11, 194);
+        border: solid 2px rgb(91, 206, 14);
+        width: 90vw;
+    }
+}
+
+@media(min-width: 1281px) {
+    jobs-list-content {
+        border: solid 2px rgb(218, 19, 141);
+        width: 970px;
+        background-color: #0a92d1;
     }
 }

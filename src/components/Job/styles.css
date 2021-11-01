@@ -1,7 +1,7 @@
 .job-container {
     border-top: solid 1px #dedede;
     display: flex;
-    width: 60vw;
+    width: 95%;
     height: 270px;
     padding: 35px;
 }
