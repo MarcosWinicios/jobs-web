@@ -61,7 +61,45 @@ const Jobs = () => {
 
 
                         <aside className="filters-container">
+                            <div className="filter">
+                                <h2>Filtrar: </h2>
+                                <ul>
+                                    <li><a href="#">Todas</a></li>
+                                </ul>
+                            </div>
+                            <div className="filter">
+                                <h2>Tipo de Contrato</h2>
+                                <ul>
+                                    <li><a href="#">CLT</a></li>
+                                    <li><a href="#">PJ</a></li>
+                                    <li><a href="#">Estágio</a></li>
 
+                                </ul>
+                            </div>
+                            <div className="filter">
+                                <h2>Nível de experiência</h2>
+                                <ul>
+                                    <li><a href="#">Júnior</a></li>
+                                    <li><a href="#">Pleno</a></li>
+                                    <li><a href="#">Sênior</a></li>
+                                </ul>
+                            </div>
+                            <div className="filter">
+                                <h2>Tamanho da empresa</h2>
+                                <ul>
+                                    <li><a href="#">Startup</a></li>
+                                    <li><a href="#">Grande empresa</a></li>
+                                    <li><a href="#">Pequena/média empresa</a></li>
+                                </ul>
+                            </div>
+                            <div className="filter">
+                                <h2>Cidade da vaga</h2>
+
+                                <ul>
+                                    <li><a href="#">Remoto</a></li>
+                                    <li><a href="#">Aceita candidato de fora</a></li>
+                                </ul>
+                            </div>
                         </aside>
                         <ul className="jobs-list">
                             <li>
