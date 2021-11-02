@@ -94,7 +94,12 @@ const Jobs = () => {
                             </div>
                             <div className="filter">
                                 <h2>Cidade da vaga</h2>
-
+                                <form action="/" method="get">
+                                    <input type="text" placeholder="Cidade" />
+                                    <button type="submit">
+                                        <FaSearch />
+                                    </button>
+                                </form>
                                 <ul>
                                     <li><a href="#">Remoto</a></li>
                                     <li><a href="#">Aceita candidato de fora</a></li>
