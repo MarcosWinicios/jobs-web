@@ -66,7 +66,7 @@
 .filters-container {
     height: 400px;
     width: 25%;
-    border: solid 1px #da0e0e;
+    /* border: solid 1px #da0e0e; */
 }
 
 .jobs-list-content {
@@ -76,6 +76,92 @@
     display: flex;
     justify-content: space-between;
     border: solid 5px rgb(130, 238, 179);
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    /* height: 58px; */
+}
+
+.filter:nth-child(4) ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 17.6px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.filter ul {
+    display: flex;
+}
+
+
+/* .filter ul li {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 0.8rem;
+} */
+
+.filter ul li {
+    width: fit-content;
+    font-size: 0.9rem;
+    padding: 6px 14px;
+    border-radius: 1em;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    background-color: #f4f4f4;
+}
+
+.filter ul li a {
+    color: #34495E;
+    padding: 6px
+}
+
+.filter form input {
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    padding: 0 12px 0 12px;
+    color: #000;
+    border: solid 1.5px #cccccc;
+    border-radius: 3px;
+    margin-right: 1px;
+}
+
+.filter form button {
+    height: 36px;
+    width: 40px;
+    border: solid 1.5px #cccccc;
+    border-radius: 3px;
+    color: #333333;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    /* padding: 50px; */
+}
+
+.filter form button:hover {
+    background-color: #f4f4f4;
+}
+
+.filter form {
+    display: flex;
+    margin-bottom: 15px;
+    /* border: solid 1px #2232c5; */
+    width: fit-content;
 }
 
 @media(min-width: 1025px) and (max-width: 1280px) {
