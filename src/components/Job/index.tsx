@@ -50,16 +50,16 @@ const Job = () => {
                     </span>
                 </div>
                 <div className="list-tag-skills">
-                    <span className="tag-skill">
+                    <span className="tag-skill tag">
                         C++
                     </span>
-                    <span className="tag-skill">
+                    <span className="tag-skill tag">
                         Git
                     </span>
-                    <span className="tag-skill">
+                    <span className="tag-skill tag">
                         MySQL
                     </span>
-                    <span className="tag-skill">
+                    <span className="tag-skill tag">
                         POO
                     </span>
                 </div>

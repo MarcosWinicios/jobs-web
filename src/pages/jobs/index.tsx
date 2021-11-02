@@ -64,32 +64,32 @@ const Jobs = () => {
                             <div className="filter">
                                 <h2>Filtrar: </h2>
                                 <ul>
-                                    <li><a href="#">Todas</a></li>
+                                    <li className="tag"><a href="#">Todas</a></li>
                                 </ul>
                             </div>
                             <div className="filter">
                                 <h2>Tipo de Contrato</h2>
                                 <ul>
-                                    <li><a href="#">CLT</a></li>
-                                    <li><a href="#">PJ</a></li>
-                                    <li><a href="#">Estágio</a></li>
+                                    <li className="tag"><a href="#">CLT</a></li>
+                                    <li className="tag"><a href="#">PJ</a></li>
+                                    <li className="tag"><a href="#">Estágio</a></li>
 
                                 </ul>
                             </div>
                             <div className="filter">
                                 <h2>Nível de experiência</h2>
                                 <ul>
-                                    <li><a href="#">Júnior</a></li>
-                                    <li><a href="#">Pleno</a></li>
-                                    <li><a href="#">Sênior</a></li>
+                                    <li className="tag"><a href="#">Júnior</a></li>
+                                    <li className="tag"><a href="#">Pleno</a></li>
+                                    <li className="tag"><a href="#">Sênior</a></li>
                                 </ul>
                             </div>
                             <div className="filter">
                                 <h2>Tamanho da empresa</h2>
                                 <ul>
-                                    <li><a href="#">Startup</a></li>
-                                    <li><a href="#">Grande empresa</a></li>
-                                    <li><a href="#">Pequena/média empresa</a></li>
+                                    <li className="tag"><a href="#">Startup</a></li>
+                                    <li className="tag"><a href="#">Grande empresa</a></li>
+                                    <li className="tag"><a href="#">Pequena/média empresa</a></li>
                                 </ul>
                             </div>
                             <div className="filter">
@@ -101,8 +101,8 @@ const Jobs = () => {
                                     </button>
                                 </form>
                                 <ul>
-                                    <li><a href="#">Remoto</a></li>
-                                    <li><a href="#">Aceita candidato de fora</a></li>
+                                    <li className="tag"><a href="#">Remoto</a></li>
+                                    <li className="tag"><a href="#">Aceita candidato de fora</a></li>
                                 </ul>
                             </div>
                         </aside>

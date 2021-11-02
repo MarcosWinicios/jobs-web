@@ -38,3 +38,7 @@ body,
 li {
     list-style: none;
 }
+
+.tag {
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 30%);
+}
