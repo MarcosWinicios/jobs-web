@@ -8,7 +8,7 @@ const Jobs = () => {
     return (
         <>
             <Header />
-            <main>
+            <main className="jobs-container">
                 <section className="presentation">
                     <div>
                         <h1>Vagas para Programadores e Desenvolvedores</h1>
@@ -121,11 +121,6 @@ const Jobs = () => {
                         </ul>
                     </div>
                 </section>
-                <br />
-                <p>Paginação</p>
-                <p>Paginação</p>
-                <br />
-
             </main>
             <Footer />
         </>

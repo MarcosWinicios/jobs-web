@@ -63,17 +63,17 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a href="https://twitter.com/ProgramaThor">
-                                    <FaTwitter size="35" />
+                                    <FaTwitter size="30" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://instagram.com/ProgramaThor">
-                                    <FaInstagram size="35" />
+                                    <FaInstagram size="30" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/company/programathor">
-                                    <FaLinkedinIn size="35" />
+                                    <FaLinkedinIn size="30" />
                                 </a>
                             </li>
                         </ul>
