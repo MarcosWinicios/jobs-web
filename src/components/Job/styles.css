@@ -49,11 +49,3 @@
     align-content: center;
     height: fit-content;
 }
-
-.list-tag-skills span {
-    background-color: #f4f4f4;
-    border-radius: 17%;
-    padding: 6px 15px;
-    margin-right: 6px;
-    color: #34495e;
-}

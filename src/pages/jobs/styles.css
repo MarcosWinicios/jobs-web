@@ -75,7 +75,7 @@
     max-width: 90vw;
     display: flex;
     justify-content: space-between;
-    border: solid 5px rgb(130, 238, 179);
+    /* border: solid 5px rgb(130, 238, 179); */
 }
 
 .filter {
@@ -84,7 +84,8 @@
     margin-bottom: 45px;
 }
 
-.filter:nth-child(4) ul {
+.filter:nth-child(4) ul,
+.filter:last-child ul {
     display: flex;
     flex-direction: column;
 }
@@ -111,16 +112,6 @@
     display: flex;
 }
 
-.filter ul li {
-    width: fit-content;
-    font-size: 0.9rem;
-    padding: 6px 14px;
-    border-radius: 1em;
-    margin-right: 6px;
-    margin-bottom: 5px;
-    background-color: #f4f4f4;
-}
-
 .filter ul li a {
     color: #34495E;
     padding: 6px
@@ -129,8 +120,9 @@
 .filter form input {
     font-size: 16px;
     font-weight: 400;
+    width: 196px;
     height: 36px;
-    padding: 0 12px 0 12px;
+    padding: 6px 12px;
     color: #000;
     border: solid 1.5px #cccccc;
     border-radius: 3px;
@@ -150,7 +142,6 @@
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
-    /* padding: 50px; */
 }
 
 .filter form button:hover {
@@ -160,7 +151,6 @@
 .filter form {
     display: flex;
     margin-bottom: 15px;
-    /* border: solid 1px #2232c5; */
     width: fit-content;
 }
 
