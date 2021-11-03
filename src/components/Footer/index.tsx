@@ -1,10 +1,10 @@
 import React from "react";
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa"
 import "./styles.css";
 const Footer = () => {
     return (
         <footer>
-            <main>
+            <main className="footer-container">
 
                 <section className="footer-navigation">
                     <div className="links-container">
@@ -52,6 +52,35 @@ const Footer = () => {
                             </ul>
                         </nav>
                     </div>
+                </section>
+                <section className="company-information">
+                    <div className="social-networks">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/ProgramaThorBr/">
+                                    <FaFacebookF size="35" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ProgramaThor">
+                                    <FaTwitter size="35" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/ProgramaThor">
+                                    <FaInstagram size="35" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/programathor">
+                                    <FaLinkedinIn size="35" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    ProgramaThor © 2021 - Todos os direitos reservados
+
+
                 </section>
             </main>
 
