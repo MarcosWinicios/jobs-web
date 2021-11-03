@@ -1,4 +1,25 @@
 footer {
     background-color: #2A3F54;
     height: 481px;
+    color: #EEEE;
+    padding: 50px 0 50px 0;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(185, 71, 71);
+}
+
+.links-container {
+    width: 360px;
+    padding: 0 15px 0 15px;
+    border: solid 1px rgb(4, 158, 163);
+}
+
+.links-container nav li a {
+    color: #EEEEEE;
+    font-size: 16px;
+    line-height: 36px;
 }
