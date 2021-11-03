@@ -62,32 +62,32 @@ const Jobs = () => {
                             <div className="filter">
                                 <h2>Filtrar: </h2>
                                 <ul>
-                                    <li className="tag"><a href="#">Todas</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Todas</a></li>
                                 </ul>
                             </div>
                             <div className="filter">
                                 <h2>Tipo de Contrato</h2>
                                 <ul>
-                                    <li className="tag"><a href="#">CLT</a></li>
-                                    <li className="tag"><a href="#">PJ</a></li>
-                                    <li className="tag"><a href="#">Estágio</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">CLT</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">PJ</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Estágio</a></li>
 
                                 </ul>
                             </div>
                             <div className="filter">
                                 <h2>Nível de experiência</h2>
                                 <ul>
-                                    <li className="tag"><a href="#">Júnior</a></li>
-                                    <li className="tag"><a href="#">Pleno</a></li>
-                                    <li className="tag"><a href="#">Sênior</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Júnior</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Pleno</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Sênior</a></li>
                                 </ul>
                             </div>
                             <div className="filter">
                                 <h2>Tamanho da empresa</h2>
                                 <ul>
-                                    <li className="tag"><a href="#">Startup</a></li>
-                                    <li className="tag"><a href="#">Grande empresa</a></li>
-                                    <li className="tag"><a href="#">Pequena/média empresa</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Startup</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Grande empresa</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Pequena/média empresa</a></li>
                                 </ul>
                             </div>
                             <div className="filter">
@@ -99,8 +99,8 @@ const Jobs = () => {
                                     </button>
                                 </form>
                                 <ul>
-                                    <li className="tag"><a href="#">Remoto</a></li>
-                                    <li className="tag"><a href="#">Aceita candidato de fora</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Remoto</a></li>
+                                    <li className="tag"><a href="https://jobsdev.netlify.app/">Aceita candidato de fora</a></li>
                                 </ul>
                             </div>
                         </aside>
