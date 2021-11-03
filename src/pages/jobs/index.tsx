@@ -3,6 +3,7 @@ import { FaSearch } from "react-icons/fa"
 import Header from "components/Header";
 import Job from "components/Job";
 import "./styles.css";
+import Footer from "components/Footer";
 const Jobs = () => {
     return (
         <>
@@ -126,14 +127,7 @@ const Jobs = () => {
                 <br />
 
             </main>
-            <p>texto</p>
-            <p>texto</p>
-            <p>texto</p>
-            <p>texto</p>
-            <p>texto</p>
-            <p>texto</p>
-            <p>texto</p>
-            <p>texto</p>
+            <Footer />
         </>
     );
 }
