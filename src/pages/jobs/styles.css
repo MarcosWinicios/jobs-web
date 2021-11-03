@@ -60,7 +60,11 @@
 .jobs-list-container {
     display: flex;
     justify-content: center;
-    border: solid 3px #0a92d1;
+    /* border: solid 3px #0a92d1; */
+}
+
+.jobs-list li:hover {
+    background-color: #f4f4f4;
 }
 
 .filters-container {
@@ -76,6 +80,10 @@
     display: flex;
     justify-content: space-between;
     /* border: solid 5px rgb(130, 238, 179); */
+}
+
+main {
+    border-bottom: solid 1.5px #dedede;
 }
 
 .filter {

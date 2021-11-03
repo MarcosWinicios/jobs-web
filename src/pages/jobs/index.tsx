@@ -58,8 +58,6 @@ const Jobs = () => {
                 </section>
                 <section className="jobs-list-container">
                     <div className="jobs-list-content">
-
-
                         <aside className="filters-container">
                             <div className="filter">
                                 <h2>Filtrar: </h2>
@@ -122,7 +120,20 @@ const Jobs = () => {
                         </ul>
                     </div>
                 </section>
+                <br />
+                <p>Paginação</p>
+                <p>Paginação</p>
+                <br />
+
             </main>
+            <p>texto</p>
+            <p>texto</p>
+            <p>texto</p>
+            <p>texto</p>
+            <p>texto</p>
+            <p>texto</p>
+            <p>texto</p>
+            <p>texto</p>
         </>
     );
 }
